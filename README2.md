@@ -53,7 +53,7 @@ sqft_lot15 (square footage of lots in nearest 15 homes)
 
 For this project, the baseline model was created immmediately after cleaning and creating dummy variables. Our inital R^2 is 0.841. However, multiple features have p-values greater than 0.05. Furthermore, our residuals are skewed (see below) and the difference in RMSEs between our test and train sets is very high (> 8.2 MM). 
 
-![alt text](Baseline Model residuals.png)
+![alt text](https://raw.githubusercontent.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/master/Baseline%20Model%20residuals.png)
 
 ## Final Model
 
