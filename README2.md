@@ -57,12 +57,29 @@ For this project, the baseline model was created immmediately after cleaning and
 
 ## Final Model
 
+To arrive at our final model, I performed log transofrmations on price, sqft_living, sqft_lot and home_age to normalize the resdiuals. Furthermore, I dropped columns with high p-values in our subsequent models. Ultimately, I limited our model to 50 features. 
 
+The final R^2 of our model 0.736. While R^2 did decrease from our baseline model, the residuals are more normally distributed (see below). This model also have a smaller RMSE difference of 0.001, further supporting the strength of this model.
 
 ## Conclusions
-The process for this project is identical to the process you followed for your module 1 project. We specified it again below as a refresher.
-(Note: On-campus students may have different processes, please speak with your instructor)
 
+### Which features of a home have the greatest impact on home price?
+
+As outlined below, the zipcode a home is located in, the grade of a home (referring to the construction quality) and the liveable sqft have the biggest impact on the price of a home.
+
+For example, a home located in zipcode 98004 will increase the log price of a home by 0.69. 
+
+Every additional square foot will increase home price by 0.433 the log of price
+
+Having a home with a grade of 4-6 will decrease your home value by a minimum of 0.50 the log of price.
+
+### Which areas of King County should we consider building in?
+
+Homes in Bellevue (98004) and Seattle (98112,98109) are generally more expensive.
+
+### How can we improve the potential sale price of a home?
+
+We don't only have to build homes on empty lots. We can also consider conducting remodels and focus on using higher grade materials as well as building extensions to increase the squarefootage of a home. 
 
 
 
