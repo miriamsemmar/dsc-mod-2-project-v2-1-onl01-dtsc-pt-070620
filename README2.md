@@ -59,21 +59,17 @@ For this project, the baseline model was created immmediately after cleaning and
 
 To arrive at our final model, I performed log transofrmations on price, sqft_living, sqft_lot and home_age to normalize the resdiuals. Furthermore, I dropped columns with high p-values in our subsequent models. Ultimately, I limited our model to 50 features. 
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/price_before_transformation.png distribution of price before log transformation)
-*Distribution of price before log transformation*
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/price_before_transformation.png)*Distribution of price before log transformation*
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/price_after_transformation.png)
-*Distribution of price after log transformation (more normal)*
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/price_after_transformation.png)*Distribution of price after log transformation (more normal)*
 
 The final R^2 of our model 0.736. While R^2 did decrease from our baseline model, the residuals are more normally distributed (see below). This model also have a smaller RMSE difference of 0.001, further supporting the strength of this model.
 
 ![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_OLS.png)
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model.png)
-*Q-Q Plot of final model residuals*
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model.png)*Q-Q Plot of final model residuals*
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_homosce.png)
-*Homoscedasticity of final model*
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_homosce.png)*Homoscedasticity of final model*
 
 ## Conclusions
 
