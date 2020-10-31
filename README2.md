@@ -71,9 +71,13 @@ The final R^2 of our model 0.736. While R^2 did decrease from our baseline model
 
 ![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_OLS.png)
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model.png)*Q-Q Plot of final model residuals*
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model.png)
 
-![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_homosce.png)*Homoscedasticity of final model*
+*Q-Q Plot of final model residuals*
+
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/final_model_homosce.png)
+
+*Homoscedasticity of final model*
 
 ## Conclusions
 
