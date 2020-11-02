@@ -87,9 +87,15 @@ The final R^2 of our model 0.736. While R^2 did decrease from our baseline model
 
 As outlined below, the zipcode a home is located in, the grade of a home (referring to the construction quality) and the liveable sqft have the biggest impact on the price of a home.
 
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/Images/Screen%20Shot%202020-11-01%20at%2010.55.02%20PM.png)
+
+*15 Features with Biggest Impact on Home Price*
+
 For example, a home located in zipcode 98004 increases the sale price of a home by 101%. 
 
 A 1% increase in square footage will increase home price by 0.4%.
+
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/Images/sqftp.png)
 
 Having a basement increases home sale price by 1.4%.
 
@@ -103,4 +109,4 @@ Areas closer to Seattle: Bellevue, Mercer Island and Kirkland.
 
 We don't only have to build homes on empty lots. We can also consider conducting remodels and focus on using higher grade materials as well as building extensions to increase the square footage of a home. 
 
-
+![alt text](https://github.com/miriamsemmar/dsc-mod-2-project-v2-1-onl01-dtsc-pt-070620/blob/master/Images/gp.png)
